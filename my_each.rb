@@ -1,7 +1,7 @@
 def my_each(arr)
   n=0;
   while n<arr.length do
-    yield
+    yield arr[n]
   end
   return arr
 end
