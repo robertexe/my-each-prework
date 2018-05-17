@@ -7,6 +7,6 @@ def my_each(arr)
   return arr
 end
 
-my_each(collection) do |i|
+my_each(element) do |i|
   puts i
 end
